@@ -8,7 +8,8 @@
 **This is our first project**. We did the quiz with: 
 
 * Html
-* Css  
+* Css 
+* Sass
 * Javascript
 * Bootstrap  
 * React
