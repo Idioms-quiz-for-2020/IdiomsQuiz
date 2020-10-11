@@ -16,4 +16,4 @@
 
 ---
 
-__Hope you will love it__ ;)
+__Hope you will love it__  ヅ
