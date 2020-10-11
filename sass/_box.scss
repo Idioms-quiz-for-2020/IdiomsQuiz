@@ -1,0 +1,67 @@
+.box {
+  grid-row: 8 / 18;
+  grid-column: 3 / span 7;
+  background-color: #2684ff;
+
+  padding: 0 3rem;
+  border: 2px solid #fff;
+  transform: skew(-20deg);
+
+  &__question {
+    margin-top: 1rem;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    transform: skew(20deg);
+  }
+
+  &__btn {
+    &,
+    &:link,
+    &:visited {
+      background-color: #fff;
+      text-decoration: none;
+      font-family: $font-primary;
+      font-weight: 500;
+      padding: 1rem;
+      display: flex;
+      justify-content: start;
+      transition: all 0.2s;
+      align-items: center;
+      border: none;
+      position: relative;
+      margin-top: 2.5vh;
+      //Changeforthe<button>elementborder: none;
+      cursor: pointer;
+    }
+
+    &:hover {
+      box-shadow: 0 1rem 2rem rgba(black, 0.2);
+      transform: translate(1.5rem);
+      &:after {
+        transform: scaleX(1.4) scaleY(1.6);
+        opacity: 0;
+      }
+    }
+
+    &:active,
+    &:focus {
+      outline: none;
+      transform: translateY(-1px);
+      box-shadow: 0 0.5rem 1rem rgba(black, 0.2);
+    }
+  }
+}
+
+.hide {
+  display: none;
+}
+
+.correct {
+  background-color: #26ff93;
+}
+
+.wrong {
+  background-color: #ff0000;
+}

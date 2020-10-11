@@ -1,0 +1,105 @@
+// FONT VARIABLES
+$font-primary: "Lato", sans-serif;
+$btn-color: #ff0000;
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: $font-primary;
+  color: #fff;
+  font-weight: 300;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: repeat(6, 20vh);
+  grid-template-columns: repeat(10, minmax(15rem, min-content));
+}
+
+h1 {
+  font-size: 8rem;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+::selection {
+  background-color: #fff;
+  color: #1837ff;
+}
+
+.btn {
+  &,
+  &:link,
+  &:visited {
+    font-size: 1.6rem;
+    color: $btn-color;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid $btn-color;
+    padding: 3px;
+    transition: all 0.2s;
+    font-weight: 400;
+    background: transparent;
+    cursor: pointer;
+  }
+
+  &:hover {
+    background-color: $btn-color;
+    color: #fff;
+    box-shadow: 0 1rem 2rem rgba(#000, 0.15);
+    transform: translateY(-4px);
+  }
+
+  &:active,
+  &:focus {
+    box-shadow: 0 0.5rem 1rem rgba(#000, 0.15);
+    transform: translateY(0);
+  }
+
+  &__list {
+    grid-column: 5 / span 3;
+    grid-row: 19 / 20;
+  }
+
+  &__next {
+    transform: skew(20deg);
+    margin: 2vh 0 2vh 28vw;
+    padding: 6px 1rem;
+    transform: translate(0);
+  }
+
+  &__start {
+    grid-row: 10 / span 6;
+    grid-column: 4 / span 5;
+
+    text-transform: uppercase;
+    font-size: 3rem;
+
+    &:hover {
+      transform: translateY(0);
+    }
+  }
+}
+
+.list__link {
+  &,
+  &:link,
+  &:visited {
+    color: currentColor;
+    text-decoration: none;
+    cursor: pointer;
+  }
+}
