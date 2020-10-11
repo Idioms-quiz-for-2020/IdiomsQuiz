@@ -5,7 +5,7 @@
 
 ---
 
-**This is our first project**. We did the quiz with: 
+**This is our first project**. Languages and tools we used: 
 
 * Html
 * Css 
