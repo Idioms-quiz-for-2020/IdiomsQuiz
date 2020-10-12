@@ -3,7 +3,7 @@
   grid-column: 1 / span 10;
 
   display: grid;
-  grid-template-columns: repeat(10, minmax(15rem, min-content));
+  grid-template-columns: repeat(10, minmax(10vw, min-content));
   background-color: #101d2c;
 
   font-size: 1.4rem;
@@ -11,8 +11,12 @@
   color: #fff;
   align-content: center;
 
-  &__text {
+  &__content {
     grid-column: 4 / 7;
+    margin-left: 6vw;
+  }
+
+  &__text {
     display: flex;
     align-items: center;
     justify-content: center;
