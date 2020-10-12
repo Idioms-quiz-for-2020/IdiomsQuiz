@@ -9,11 +9,37 @@
   font-size: 1.4rem;
   font-weight: 300;
   color: #fff;
+  align-content: center;
 
   &__text {
     grid-column: 4 / 7;
     display: flex;
     align-items: center;
+    justify-content: center;
+
+    &--link {
+      &,
+      &:link,
+      &:visited {
+        display: inline-block;
+        position: relative;
+        color: #3960bdf8;
+        font-weight: bold;
+        text-decoration: none;
+        transition: all 0.2s;
+        padding: 0 5px;
+        cursor: pointer;
+      }
+
+      &:hover {
+        color: rgb(73, 141, 243);
+      }
+    }
+  }
+
+  &__copy {
+    grid-column: 4 / span 3;
+    display: flex;
     justify-content: center;
   }
 }
