@@ -1,6 +1,6 @@
 # Best English Idiom Quiz  
 
-### created by two guys from _Slovakia_ 
+### created by two programming enthusiasts from _Slovakia_ 
 [Michal Belko](https://www.instagram.com/_michal.belko_/) and [Martin Lauff](https://www.instagram.com/mato_157/).    
 
 ---
