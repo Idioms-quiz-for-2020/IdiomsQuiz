@@ -12,7 +12,6 @@
 * Sass
 * Javascript
 * Bootstrap  
-* React
 
 ---
 
