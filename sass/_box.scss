@@ -3,9 +3,21 @@
   grid-column: 3 / span 7;
   background-color: #2684ff;
 
+  @media only screen and (max-width: 600px) {
+    grid-row: 5 / 17;
+  }
+
+  @media only screen and (max-width: 380px) {
+    grid-column: 2 / span 9;
+  }
+
   padding: 0 3rem;
   border: 2px solid #fff;
   transform: skew(-20deg);
+
+  @media only screen and (max-width: 380px) {
+    transform: skew(0);
+  }
 
   &__question {
     margin-top: 1rem;
@@ -14,6 +26,14 @@
     justify-content: center;
     align-content: center;
     transform: skew(20deg);
+
+    @media only screen and (max-width: 1000px) {
+      font-size: 2.3rem;
+    }
+
+    @media only screen and (max-width: 380px) {
+      transform: skew(0);
+    }
   }
 
   &__btn {
@@ -21,9 +41,9 @@
     &:link,
     &:visited {
       background-color: #fff;
-      text-decoration: none;
-      font-family: $font-primary;
       font-weight: 500;
+      font-size: 1.4rem;
+      text-decoration: none;
       padding: 1rem;
       display: flex;
       justify-content: start;
@@ -34,6 +54,10 @@
       margin-top: 2.5vh;
       //Changeforthe<button>elementborder: none;
       cursor: pointer;
+
+      @media only screen and (max-width: 1000px) {
+        font-size: 1.2rem;
+      }
     }
 
     &:hover {
