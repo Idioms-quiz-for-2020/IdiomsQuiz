@@ -113,8 +113,39 @@ h1 {
       margin: 2vh 0 2vh 19vw;
     }
   }
-  
-  .footer {
+  &__start {
+    grid-row: 10 / span 6;
+    grid-column: 4 / span 5;
+
+    text-transform: uppercase;
+    font-size: 3rem;
+
+    @media only screen and (max-width: 920px) {
+      grid-row: 10 / span 5;
+    }
+
+    @media only screen and (max-width: 650px) {
+      grid-row: 10 / span 4;
+    }
+  }
+}
+
+.list__link {
+  &,
+  &:link,
+  &:visited {
+    color: currentColor;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 2.4rem;
+
+    @media only screen and (max-width: 550px) {
+      font-size: 1.8rem;
+    }
+  }
+}
+
+ .footer {
   background-color: #101d2c;
   padding: 40px;
   font-weight: 500;
@@ -152,34 +183,3 @@ h1 {
   color: #5480e7f8;
 }
 
-  &__start {
-    grid-row: 10 / span 6;
-    grid-column: 4 / span 5;
-
-    text-transform: uppercase;
-    font-size: 3rem;
-
-    @media only screen and (max-width: 920px) {
-      grid-row: 10 / span 5;
-    }
-
-    @media only screen and (max-width: 650px) {
-      grid-row: 10 / span 4;
-    }
-  }
-}
-
-.list__link {
-  &,
-  &:link,
-  &:visited {
-    color: currentColor;
-    text-decoration: none;
-    cursor: pointer;
-    font-size: 2.4rem;
-
-    @media only screen and (max-width: 550px) {
-      font-size: 1.8rem;
-    }
-  }
-}
