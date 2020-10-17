@@ -205,15 +205,6 @@ const questions = [
         ]
     },
     {
-        question: 'BURN THE CANDLE AT BOTH ENDS',
-        answers: [
-            { text: 'To work very quickly although the result is not qualitative', correct: false},
-            { text: 'Something that seems bad or unlucky at first but causes something good to happen later', correct: false},
-            { text: 'Said to emphasize that every difficult or unpleasant situation has some advantage', correct: false},
-            { text: 'To work from early in the morning until late at night and so get very little rest', correct: true}
-        ]
-    },
-    {
         question: 'BUY THE FARM',
         answers: [
             { text: 'to resign from a job', correct: false},
@@ -259,29 +250,11 @@ const questions = [
         ]
     },
     {
-        question: 'FENDER BENDER',
-        answers: [
-            { text: 'a person who often drinks a large amount of alcohol on one occasion', correct: false},
-            { text: 'road accident in which the vehicles involved are only slightly damaged', correct: true},
-            { text: 'a substance that can make people or animals ill or kill them', correct: false},
-            { text: 'a gentle way of saying a rude vulgarism', correct: false}
-        ]
-    },
-    {
         question: 'GET THE AXE',
         answers: [
             { text: 'to lose a job', correct: true},
             { text: 'to get an unexpected gift', correct: false},
             { text: 'get a sale in a shop', correct: false},
-            { text: 'to start an argument between your parents', correct: false}
-        ]
-    },
-    {
-        question: 'HAUL SOMEONE OVER THE COALS',
-        answers: [
-            { text: 'to talk about other people\'s private lives behind their back', correct: false},
-            { text: 'to shout at someone loudly even if it is not neccesery', correct: false},
-            { text: 'to criticize someone severely for something they have done', correct: true},
             { text: 'to start an argument between your parents', correct: false}
         ]
     },
@@ -322,15 +295,6 @@ const questions = [
         ]
     },
     {
-        question: 'LIVE IN CLOVER',
-        answers: [
-            { text: 'to live in a part of a town that is considered poor and dangerous', correct: false},
-            { text: 'someone who loves water activities like swimming, surfing etc, lives in clover', correct: false},
-            { text: 'to be very skillfull in a particular activity', correct: false},
-            { text: 'to enjoy a life of money and comfort', correct: true}
-        ]
-    },
-    {
         question: 'WOMAN OF MEANS',
         answers: [
             { text: 'clever woman', correct: false},
@@ -364,15 +328,6 @@ const questions = [
             { text: 'if you are on the wagon, you have decided not to drink any alcohol', correct: true},
             { text: 'to be on the wagon means to travel a lot', correct: false},
             { text: 'to enjoy a life of money and comfort', correct: false}
-        ]
-    },
-    {
-        question: 'PULL SB\'S LEG',
-        answers: [
-            { text: 'to strongly provoke someone', correct: false},
-            { text: 'to encourage someone to do something, esp. something unwise or bad', correct: false},
-            { text: 'to try to persuade someone to believe something that is not true, as a joke', correct: true},
-            { text: 'to continue talking about something that is not interesting to the person you are talking to', correct: false}
         ]
     },
     {
@@ -421,15 +376,6 @@ const questions = [
         ]
     },
     {
-        question: 'STORM IN A TEACUP',
-        answers: [
-            { text: 'a man pretended to be someone else', correct: false},
-            { text: 'a lot of unnecessary anger and worry about a matter that is not important', correct: true},
-            { text: 'if you are not willing to do something, you say that you will do it, when there is storm in a teacup', correct: false},
-            { text: 'a sentimental guy who can be easily provoked', correct: false}
-        ]
-    },
-    {
         question: 'TAKE A BATTERING',
         answers: [
             { text: 'a man pretended to be someone else', correct: false},
@@ -438,13 +384,4 @@ const questions = [
             { text: 'to give up', correct: false}
         ]
     },
-    {
-        question: 'TALK TURKEY',
-        answers: [
-            { text: 'to talk nonsense', correct: false},
-            { text: 'to discuss something in a direct way without avoiding difficult issues', correct: true},
-            { text: 'to shout at someone, especially when it is unnecessary', correct: false},
-            { text: 'to speak too proudly or happily about what you have done or what you own', correct: false}
-        ]
-    }
 ]
