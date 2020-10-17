@@ -2,10 +2,6 @@
 $font-primary: "Lato", sans-serif;
 $btn-color: #ff0000;
 
-// RESPONSIVE BREAKPOINTS
-$bp-largest: 75em; // 1200px
-$bp-large: 57.5em; //940px
-
 *,
 *::before,
 *::after {
@@ -17,10 +13,6 @@ $bp-large: 57.5em; //940px
 html {
   box-sizing: border-box;
   font-size: 62.5%;
-
-  @media only screen and (max-width: $bp-largest) {
-    font-size: 50%;
-  }
 }
 
 body {
@@ -46,12 +38,20 @@ h1 {
   text-transform: uppercase;
   font-weight: 300;
 
-  @media only screen and (max-width: 510px) {
+  @media only screen and (max-width: 750px) {
+    font-size: 7rem;
+  }
+
+  @media only screen and (max-width: 680px) {
     font-size: 6rem;
   }
 
+  @media only screen and (max-width: 560px) {
+    font-size: 5rem;
+  }
+
   @media only screen and (max-width: 380px) {
-    font-size: 4.5rem;
+    font-size: 4rem;
   }
 }
 
@@ -89,7 +89,7 @@ h1 {
 
   &__list {
     grid-row: 19 / span 2;
-    grid-column: 5 / span 3;
+    grid-column: 5 / span 4;
 
     @media only screen and (max-width: 600px) {
       grid-row: 18 / span 2;
@@ -102,7 +102,7 @@ h1 {
     font-size: 1.8rem;
 
     @media only screen and (max-width: 1000px) {
-      font-size: 1.2rem;
+      font-size: 1.4rem;
     }
 
     @media only screen and (max-width: 600px) {
@@ -110,12 +110,16 @@ h1 {
     }
 
     @media only screen and (max-width: 380px) {
-      margin: 2vh 0 2vh 19vw;
+      margin: 2vh 0 2vh 13vw;
+    }
+
+    @media only screen and (max-width: 330px) {
+      margin: 2vh 0 2vh 9vw;
     }
   }
   &__start {
     grid-row: 10 / span 6;
-    grid-column: 4 / span 5;
+    grid-column: 4 / span 6;
 
     text-transform: uppercase;
     font-size: 3rem;
@@ -126,6 +130,14 @@ h1 {
 
     @media only screen and (max-width: 650px) {
       grid-row: 10 / span 4;
+    }
+
+    @media only screen and (max-width: 540px) {
+      font-size: 2.5rem;
+    }
+
+    @media only screen and (max-width: 400px) {
+      font-size: 2rem;
     }
   }
 }
@@ -142,16 +154,28 @@ h1 {
     @media only screen and (max-width: 550px) {
       font-size: 1.8rem;
     }
+
+    @media only screen and (max-width: 340px) {
+      font-size: 1.4rem;
+    }
   }
 }
 
- .footer {
+.footer {
   background-color: #101d2c;
   padding: 40px;
   font-weight: 500;
   color: white;
   width: 100vw;
   font-size: 1.8rem;
+
+  @media only screen and (max-width: 1000px) {
+    font-size: 1.5rem;
+  }
+
+  @media only screen and (max-width: 500px) {
+    font-size: 1.2rem;
+  }
 }
 .borderLeftRight {
   display: inline-block;
@@ -184,4 +208,3 @@ h1 {
 .footer .col-12 a:hover {
   color: #5480e7f8;
 }
-
