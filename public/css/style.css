@@ -8,9 +8,6 @@
 html {
   box-sizing: border-box;
   font-size: 62.5%; }
-  @media only screen and (max-width: 75em) {
-    html {
-      font-size: 50%; } }
 
 body {
   font-family: "Lato", sans-serif;
@@ -31,12 +28,18 @@ h1 {
   font-size: 8rem;
   text-transform: uppercase;
   font-weight: 300; }
-  @media only screen and (max-width: 510px) {
+  @media only screen and (max-width: 750px) {
+    h1 {
+      font-size: 7rem; } }
+  @media only screen and (max-width: 680px) {
     h1 {
       font-size: 6rem; } }
+  @media only screen and (max-width: 560px) {
+    h1 {
+      font-size: 5rem; } }
   @media only screen and (max-width: 380px) {
     h1 {
-      font-size: 4.5rem; } }
+      font-size: 4rem; } }
 
 ::selection {
   background-color: #fff;
@@ -64,7 +67,7 @@ h1 {
 
 .btn__list {
   grid-row: 19 / span 2;
-  grid-column: 5 / span 3; }
+  grid-column: 5 / span 4; }
   @media only screen and (max-width: 600px) {
     .btn__list {
       grid-row: 18 / span 2; } }
@@ -75,17 +78,17 @@ h1 {
   font-size: 1.8rem; }
   @media only screen and (max-width: 1000px) {
     .btn__next {
-      font-size: 1.2rem; } }
+      font-size: 1.4rem; } }
   @media only screen and (max-width: 600px) {
     .btn__next {
       margin: 2vh 0 2vh 16vw; } }
   @media only screen and (max-width: 380px) {
     .btn__next {
-      margin: 2vh 0 2vh 19vw; } }
+      margin: 2vh 0 2vh 13vw; } }
 
 .btn__start {
   grid-row: 10 / span 6;
-  grid-column: 4 / span 5;
+  grid-column: 4 / span 6;
   text-transform: uppercase;
   font-size: 3rem; }
   @media only screen and (max-width: 920px) {
@@ -94,6 +97,12 @@ h1 {
   @media only screen and (max-width: 650px) {
     .btn__start {
       grid-row: 10 / span 4; } }
+  @media only screen and (max-width: 540px) {
+    .btn__start {
+      font-size: 2.5rem; } }
+  @media only screen and (max-width: 400px) {
+    .btn__start {
+      font-size: 2rem; } }
 
 .list__link, .list__link:link, .list__link:visited {
   color: currentColor;
@@ -111,6 +120,12 @@ h1 {
   color: white;
   width: 100vw;
   font-size: 1.8rem; }
+  @media only screen and (max-width: 1000px) {
+    .footer {
+      font-size: 1.5rem; } }
+  @media only screen and (max-width: 500px) {
+    .footer {
+      font-size: 1.2rem; } }
 
 .borderLeftRight {
   display: inline-block;
@@ -154,7 +169,7 @@ h1 {
   grid-column: 1 / -1;
   display: grid;
   grid-template-rows: repeat(20, minmax(5vh, min-content));
-  grid-template-columns: repeat(12, minmax(8.8vw, min-content)); }
+  grid-template-columns: repeat(12, minmax(8.4vw, min-content)); }
   @media only screen and (max-width: 600px) {
     .header {
       grid-row: 1 / 7; } }
@@ -167,7 +182,10 @@ h1 {
   100% {
     background-position: 0% 25%; } }
   .header__overview {
-    grid-column: 2 / span 9; }
+    grid-column: 3 / span 8; }
+    @media only screen and (max-width: 510px) {
+      .header__overview {
+        grid-column: 2 / span 10; } }
     .header__overview--heading {
       display: flex;
       justify-content: center; }
@@ -175,16 +193,22 @@ h1 {
       font-size: 3rem;
       display: flex;
       justify-content: center; }
-      @media only screen and (max-width: 510px) {
+      @media only screen and (max-width: 750px) {
+        .header__overview--text {
+          font-size: 2.5rem; } }
+      @media only screen and (max-width: 630px) {
         .header__overview--text {
           font-size: 2rem; } }
-      @media only screen and (max-width: 380px) {
+      @media only screen and (max-width: 400px) {
         .header__overview--text {
           font-size: 1.6rem; } }
+      @media only screen and (max-width: 320px) {
+        .header__overview--text {
+          font-size: 1.5rem; } }
 
 .box {
   grid-row: 8 / 18;
-  grid-column: 3 / span 7;
+  grid-column: 3 / span 8;
   background-color: #2684ff;
   padding: 0 3rem;
   border: 2px solid #fff;
@@ -192,9 +216,6 @@ h1 {
   @media only screen and (max-width: 600px) {
     .box {
       grid-row: 5 / 17; } }
-  @media only screen and (max-width: 380px) {
-    .box {
-      grid-column: 2 / span 9; } }
   @media only screen and (max-width: 580px) {
     .box {
       transform: skew(0); } }
@@ -208,6 +229,12 @@ h1 {
     @media only screen and (max-width: 1000px) {
       .box__question {
         font-size: 2.3rem; } }
+    @media only screen and (max-width: 400px) {
+      .box__question {
+        font-size: 2rem; } }
+    @media only screen and (max-width: 580px) {
+      .box__question {
+        transform: skew(0); } }
     @media only screen and (max-width: 380px) {
       .box__question {
         transform: skew(0); } }
@@ -227,7 +254,10 @@ h1 {
     cursor: pointer; }
     @media only screen and (max-width: 1000px) {
       .box__btn, .box__btn:link, .box__btn:visited {
-        font-size: 1.2rem; } }
+        font-size: 1.3rem; } }
+    @media only screen and (max-width: 430px) {
+      .box__btn, .box__btn:link, .box__btn:visited {
+        font-size: 1.1rem; } }
   .box__btn:hover {
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
     transform: translate(1.5rem); }
