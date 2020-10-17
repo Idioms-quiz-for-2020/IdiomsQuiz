@@ -109,7 +109,8 @@ h1 {
   padding: 40px;
   font-weight: 500;
   color: white;
-  width: 100vw; }
+  width: 100vw;
+  font-size: 1.8rem; }
 
 .borderLeftRight {
   display: inline-block;
