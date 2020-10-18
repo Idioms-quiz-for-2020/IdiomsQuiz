@@ -19,8 +19,8 @@ $color-pink: #ff3cec;
   grid-row: 1 / 6;
   grid-column: 1 / -1;
 
-  @media only screen and (max-width: 600px) {
-    grid-row: 1 / 7;
+  @media only screen and (max-width: 1000px) {
+    grid-row: 1 / 7; // This
   }
 
   display: grid;
