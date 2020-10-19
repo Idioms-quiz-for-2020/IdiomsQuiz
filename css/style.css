@@ -144,28 +144,30 @@ h1 {
 .footer {
   background-color: #101d2c;
   font-weight: 500;
+  padding: 4rem 0;
   color: white;
   width: 100vw;
-  font-size: 1.8rem;
-  /* @media only screen and (max-height: 600px) {
-    font-size: 1.65rem;
-  }
-
-  @media only screen and (max-height: 520px) {
-    font-size: 1.5rem;
-  }
- */ }
+  font-size: 1.8rem; }
   @media only screen and (max-width: 1000px) {
     .footer {
       font-size: 1.5rem; } }
   @media only screen and (max-width: 500px) {
     .footer {
       font-size: 1.2rem; } }
-  .footer__text {
-    padding: 5vh 7vw;
-    /*  @media only screen and (max-height: 480px) {
-      padding: 4.5vh 7vw;
-    } */ }
+  @media only screen and (max-height: 600px) {
+    .footer {
+      padding: 3.4rem 0; } }
+  @media only screen and (max-height: 520px) {
+    .footer {
+      padding: 3rem 0;
+      font-size: 1.5rem; } }
+  @media only screen and (max-height: 470px) {
+    .footer {
+      padding: 2.7rem 0; } }
+  @media only screen and (max-height: 400px) {
+    .footer {
+      padding: 2.3rem 0;
+      font-size: 1.35rem; } }
 
 .borderLeftRight {
   display: inline-block;
