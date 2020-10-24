@@ -9,6 +9,9 @@ html {
   box-sizing: border-box;
   font-size: 62.5%; }
 
+a:hover {
+  text-decoration:none}
+
 body {
   font-family: "Lato", sans-serif;
   color: #fff;
