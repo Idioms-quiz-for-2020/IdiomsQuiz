@@ -178,6 +178,10 @@ h1 {
   color: #3960bdf8;
   font-weight: bold; }
 
+.borderLeftRight:hover {
+  text-decoration:none; } 
+
+
 .borderLeftRight::after {
   content: "";
   position: absolute;
