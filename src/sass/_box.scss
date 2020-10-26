@@ -35,6 +35,13 @@
       transform: skew(0);
     }
   }
+  
+    &__numbers {
+    padding: 1rem;
+    margin-top: 2.5vh;
+    font-size: 1.8rem;
+    font-weight: 500;
+  }
 
   &__btn {
     &,
