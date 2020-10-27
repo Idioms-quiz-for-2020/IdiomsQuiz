@@ -90,7 +90,7 @@ h1 {
       grid-row: 18 / span 2; } }
 
 .btn__next {
-  margin: 2vh 0 2vh 28vw;
+  margin: 2vh 0 1vh 28vw;
   padding: 6px 1rem;
   max-width: 25rem;
   font-size: 1.8rem;
