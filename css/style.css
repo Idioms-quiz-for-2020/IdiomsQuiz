@@ -333,17 +333,17 @@ h1 {
 
 @media only screen and (max-width: 720px) {
   span.box__numbers {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
   }
 }
 @media only screen and (max-width: 560px) {
   span.box__numbers {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 }
 @media only screen and (max-width: 380px) {
   span.box__numbers {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
 }
 .hide {
