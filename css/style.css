@@ -331,6 +331,26 @@ h1 {
     font-size: 1.8rem;
     font-weight: 500; }
 
+@media only screen and (max-width: 750px) {
+  span.box__numbers {
+    font-size: 1.5rem;
+  }
+}
+@media only screen and (max-width: 680px) {
+  span.box__numbers {
+    font-size: 1.3rem;
+  }
+}
+@media only screen and (max-width: 560px) {
+  span.box__numbers {
+    font-size: 1.1rem;
+  }
+}
+@media only screen and (max-width: 380px) {
+  span.box__numbers {
+    font-size: 0.8rem;
+  }
+}
 .hide {
   display: none; }
 
