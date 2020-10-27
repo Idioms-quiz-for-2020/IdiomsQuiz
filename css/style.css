@@ -351,11 +351,13 @@ h1 {
 @media only screen and (max-width: 490px) {
   span.box__numbers {
     font-size: 1.1rem;
+    margin-top:10px;
   }
 }
 @media only screen and (max-width: 380px) {
   span.box__numbers {
     font-size: 1rem;
+    margin-top:10px;
   }
 }
 .hide {
